@@ -3,7 +3,7 @@ Demonstrates Azure Queue Storage and Azure Function for understanding basic work
  ### AzQueueStorage: 
 
  - This is a `WebApi` project. The `post` method of `QueueStorage`
-   controller can be used to enqueue message to the queue.  Inside
+   controller can be used to enqueue message to the queue. The method shows different ways to enqueue. Inside
    `program.cs`, you can configure connection to your azure account. By
    default, it is using `Managed Identity`, but following inline
    comments, you can easily substitute your
